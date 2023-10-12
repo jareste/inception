@@ -1,5 +1,0 @@
-CREATE DATABASE IF NOT EXISTS jarestedb;
-CREATE USER IF NOT EXISTS 'jareste'@'%' IDENTIFIED BY 'jareste';
-GRANT ALL PRIVILEGES ON jarestedb.* TO 'jareste'@'%';
-FLUSH PRIVILEGES;
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'root12345';
